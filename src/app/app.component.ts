@@ -1,6 +1,4 @@
 import { Component } from '@angular/core';
-import { FormsModule } from '@angular/forms'; 
-
 
 @Component({
   selector: 'app-root',
@@ -8,5 +6,8 @@ import { FormsModule } from '@angular/forms';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'my-first-project';
+  numbers = [1, 2, 3, 4, 5];
+  oddNumber=[1,3,5]
+  evenNumber=[2,4]
+  onlyOdd = false;
 }
