@@ -3,11 +3,11 @@ import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { AppComponent } from './app.component';
 import { HighlightDirective } from './basic-highlight/highlight.directive';
+
 @NgModule({
   declarations: [
     AppComponent,
-    
-    HighlightDirective
+    HighlightDirective,
   ],
   imports: [
     BrowserModule,
